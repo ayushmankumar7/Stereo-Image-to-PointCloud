@@ -27,6 +27,6 @@
 ![pc1](assets/pc.png)
 ![pc2](assets/pc2.png)
 
-## For any Query, feel free to open an Issue. 
+## For any Query, feel free to ping me on Linkedin. 
 ## Thank you! 
 ## Star this repo if you find it interesting! ;) 
