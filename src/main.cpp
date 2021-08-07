@@ -43,7 +43,7 @@ void showPointCloud(const vector<Vector4d, Eigen::aligned_allocator<Vector4d>> &
 		glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
 		
 		glPointSize(2);
-		glBegin(GL_POINT);
+		glBegin(GL_POINTS);
 		for (auto &p: pointcloud) {
 			glColor3f(p[3], p[3], p[3]);
 			glVertex3d(p[0], p[1], p[2]);
