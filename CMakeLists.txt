@@ -7,3 +7,6 @@ find_package( PCL REQUIRED )
 
 add_executable(pointcloud src/main.cpp)
 target_link_libraries(pointcloud ${OpenCV_LIBS} ${Pangolin_LIBRARIES} ${PCL_LIBRARIES})
+
+add_executable(pcl_point src/pcl_main.cpp)
+target_link_libraries(pcl_point ${OpenCV_LIBS} ${PCL_LIBRARIES})
